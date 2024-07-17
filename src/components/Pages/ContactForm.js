@@ -45,23 +45,23 @@ const ContactForm = () => {
         <form onSubmit={handleSubmit} className='contactform'>
             <br></br>
             <div className='name'>
-                <label>Name  :</label>
+                <label className='lab'>Name  :</label>
                 <input type='text' name='name' value={formData.name} onChange={handleChange} />
                 {errors.name && <span className='error'>{errors.name}</span>}
             </div>
-            <br></br>
+            <br></br><br/>
             <div className='email'>
-                <label>Email  :</label>
+                <label className='lab'>Email  :</label>
                 <input type='text' name='email' value={formData.email} onChange={handleChange} />
                 {errors.email && <span className='error'>{errors.email}</span>}
             </div>
-            <br></br>
+            <br></br><br/>
             <div className='message'>
-                <label>Message  :</label>
+                <label className='lab'>Message  :</label>
                 <textarea name='message' value={formData.message} onChange={handleChange}></textarea>
                 {errors.message && <span className='error'>{errors.message}</span>} 
             </div>
-            <br></br>
+            <br></br><br/>
             <div className='submit'>
             <button type='submit'className='submit-button'>Submit</button>
             {submitted && <span className='success'>Form submitted successfully!</span>}

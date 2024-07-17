@@ -1,0 +1,35 @@
+.cp{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-left : 10px;
+}
+
+.ch1{
+    
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+}
+
+.ch3{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.inputname{
+    display: flex;
+    align-items: center;
+    padding-left: 650px;
+    padding-right: 650px;
+    padding-bottom: 30px;
+}
