@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/ProFitness/static/css/main.464ee2ed.css",
-    "main.js": "/ProFitness/static/js/main.08834557.js",
+    "main.css": "/ProFitness/static/css/main.587c4373.css",
+    "main.js": "/ProFitness/static/js/main.d1e65bce.js",
     "static/js/453.61cb69c5.chunk.js": "/ProFitness/static/js/453.61cb69c5.chunk.js",
     "static/media/background.jpg": "/ProFitness/static/media/background.a8e9f550e94bfbf52421.jpg",
     "static/media/men.png": "/ProFitness/static/media/men.14525e02b7bae1d9e755.png",
     "static/media/women.png": "/ProFitness/static/media/women.77a80438e839994972df.png",
     "static/media/logo1.png": "/ProFitness/static/media/logo1.5b9519e77a1dd93efc0d.png",
     "index.html": "/ProFitness/index.html",
-    "main.464ee2ed.css.map": "/ProFitness/static/css/main.464ee2ed.css.map",
-    "main.08834557.js.map": "/ProFitness/static/js/main.08834557.js.map",
+    "main.587c4373.css.map": "/ProFitness/static/css/main.587c4373.css.map",
+    "main.d1e65bce.js.map": "/ProFitness/static/js/main.d1e65bce.js.map",
     "453.61cb69c5.chunk.js.map": "/ProFitness/static/js/453.61cb69c5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.464ee2ed.css",
-    "static/js/main.08834557.js"
+    "static/css/main.587c4373.css",
+    "static/js/main.d1e65bce.js"
   ]
 }
