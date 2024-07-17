@@ -14,7 +14,7 @@
    
  .wh1{
      font-size: 50px;
-     padding-top: 100px;
+     
  }
  
  .wh2{
@@ -28,3 +28,8 @@
      padding-bottom: 30px;
      letter-spacing: 2px;
  }
+
+.text-container{
+    opacity: 0; /* Initially hide the text */
+  margin-top: 20px;
+}
