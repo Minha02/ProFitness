@@ -9,8 +9,8 @@ function App() {
   return (
     <div className='App'>
       <HeaderContent />
-      <h>WELCOME TO PROFITNESS</h>
       <Routes>
+        <Route exact path="/" element={<Home/>}/>
         <Route path='/about' element={<About />}/>
         <Route path='/about/history' element={<History/>} />
         <Route path='/about/team' element={<Team />}/>
