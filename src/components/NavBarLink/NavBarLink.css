@@ -50,3 +50,17 @@ nav ul li a :hover{
 .navbar{
     background-color: #333;
 }
+
+.dark-theme {
+    background-color: #212529; /* Dark theme background color */
+    color: #ffffff; /* Dark theme text color */
+  }
+  
+  .light-theme {
+    background-color: #ffffff; /* Light theme background color */
+    color: #212529;
+  }
+  .navbar {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+  }

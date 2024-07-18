@@ -10,13 +10,14 @@ function App() {
     <div className='App'>
       <HeaderContent />
       <Routes>
+        <Route exact path="/ProFitness" element={<Home/>}/>
         <Route exact path="/" element={<Home/>}/>
         <Route path='/about' element={<About />}/>
         <Route path='/about/history' element={<History/>} />
         <Route path='/about/team' element={<Team />}/>
         <Route path='/about/values' element={<Values />}/>
         <Route path='/contact' element={<Contact />} />
-        <Route path='/' element={<Home />} />
+       
         <Route path='/login' element={<Login />} />
       </Routes>
     </div>

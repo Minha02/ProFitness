@@ -28,9 +28,6 @@ const Home =() => {
       <Clock/>
       </animated.div>
     </div>
-    
-      
-      
     </div>
   )
 }

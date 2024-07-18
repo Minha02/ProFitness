@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import AppBar from '@mui/material/AppBar';
@@ -30,6 +30,7 @@ const LogoImage = styled.img`
 
 const NavBarLink = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [theme, setTheme] = useState('light');
   const open = Boolean(anchorEl);
 
   const handleMenu = (event) =>{
@@ -40,8 +41,13 @@ const NavBarLink = () => {
     setAnchorEl(null);
   };
 
+  const toggleTheme = () => {
+    setTheme(theme === 'light' ? 'dark-theme' : 'light-theme'); // Toggle between light and dark themes
+  };
+
 
   return (
+    <div className={`navbar ${theme === 'dark' ? 'dark-theme' : 'light-theme'}`}>
     <NavBarContainer position='static'>
       <Toolbar>
         <LogoImage src={Logo} alt ='Logo'/>
@@ -76,8 +82,12 @@ const NavBarLink = () => {
         <Button color="inherit">
           <NavLink to='/login'>Login</NavLink>
         </Button>
+        <Button color="inherit" onClick={toggleTheme}>
+          Toggle Theme
+        </Button>
       </Toolbar>
     </NavBarContainer>
+    </div>
   )
 }
 
